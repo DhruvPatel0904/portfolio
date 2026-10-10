@@ -6,22 +6,22 @@ const Projects = () => {
       title: "cycle-shop",
       description:
         "A modern responsive e-commerce website created using React and CSS.",
-      image:
-        "project1.png",
+      image: "project1.png",
+      link: "https://cycle-shop-mocha.vercel.app/",
     },
     {
-      title: "brooks psychology",
+      title: "jungle safari",
       description:
-        "A modern psychology portfolio website designed to showcase professional services and expertise.",
-      image:
-        "project2.png",
+        "Jungle Safari is a modern, premium wildlife discovery website designed to showcase the beauty of nature.",
+      image: "project2.png",
+      link: "https://vantara-zeta.vercel.app/",
     },
     {
-      title: "Adventure",
+      title: "E-Commerce",
       description:
-        "Ride farther, ride faster, and experience freedom without limits.",
-      image:
-        "project3.png",
+        "A modern responsive e-commerce website created using React and CSS.",
+      image: "project3.png",
+      link: "https://cloath.vercel.app/",
     },
   ];
 
@@ -41,7 +41,20 @@ const Projects = () => {
 
               <p>{project.description}</p>
 
-              <a href="#contact" className="btn">
+              <a
+                href={project.link}
+                className="btn"
+                target={
+                  project.link.startsWith("http")
+                    ? "_blank"
+                    : undefined
+                }
+                rel={
+                  project.link.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
+              >
                 View Project
               </a>
             </div>
