@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #030712;
+  background: #021714;
   color: #fff;
   overflow-x: hidden;
 }
@@ -39,7 +39,7 @@ ul {
 }
 
 ::-webkit-scrollbar-track {
-  background: #030712;
+  background: #021714;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -71,11 +71,11 @@ ul {
   align-items: center;
   justify-content: space-between;
 
-  background: rgba(7, 15, 32, 0.7);
+  background: rgba(2, 28, 25, 0.76);
 
   backdrop-filter: blur(25px);
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(105, 255, 220, 0.10);
 
   border-radius: 50px;
 
@@ -254,19 +254,10 @@ section {
 
 #home {
   background:
-    radial-gradient(
-      circle at 10% 20%,
-      rgba(0, 229, 255, 0.13),
-      transparent 28%
-    ),
-
-    radial-gradient(
-      circle at 90% 80%,
-      rgba(124, 58, 237, 0.16),
-      transparent 30%
-    ),
-
-    #030712;
+    radial-gradient(circle at 10% 20%, rgba(0, 220, 170, 0.22), transparent 30%),
+    radial-gradient(circle at 90% 72%, rgba(0, 170, 155, 0.18), transparent 32%),
+    radial-gradient(circle at 50% 100%, rgba(0, 100, 85, 0.16), transparent 42%),
+    linear-gradient(135deg, #021714 0%, #031b20 48%, #041126 100%);
 }
 
 
@@ -283,7 +274,7 @@ section {
   border-radius: 50%;
 
   background:
-    rgba(0, 229, 255, 0.08);
+    rgba(0, 220, 175, 0.11);
 
   filter: blur(100px);
 
@@ -302,7 +293,7 @@ section {
   border-radius: 50%;
 
   background:
-    rgba(124, 58, 237, 0.08);
+    rgba(0, 160, 130, 0.10);
 
   filter: blur(100px);
 
@@ -519,7 +510,7 @@ section {
     rotateRing 5s linear infinite;
 
   box-shadow:
-    0 0 50px rgba(0, 229, 255, 0.25),
+    0 0 50px rgba(0, 229, 190, 0.25),
     0 0 100px rgba(124, 58, 237, 0.15);
 }
 
@@ -536,7 +527,7 @@ section {
 
   border-radius: 50%;
 
-  background: #030712;
+  background: #021714;
 
   z-index: 1;
 
@@ -562,7 +553,7 @@ section {
   border: 7px solid #030712;
 
   box-shadow:
-    0 0 30px rgba(0, 229, 255, 0.4);
+    0 0 30px rgba(0, 229, 190, 0.4);
 
   /* animation:
     floatingPhoto 4s ease-in-out infinite; */
@@ -585,11 +576,7 @@ section {
 
 #about {
   background:
-    linear-gradient(
-      180deg,
-      #030712,
-      #07111f
-    );
+    linear-gradient(180deg, #021714, #06231f);
 }
 
 .about-content {
@@ -604,15 +591,15 @@ section {
   background:
     linear-gradient(
       145deg,
-      rgba(30, 41, 59, 0.7),
-      rgba(15, 23, 42, 0.4)
+      rgba(8, 54, 47, 0.72),
+      rgba(3, 35, 30, 0.48)
     );
 
   backdrop-filter: blur(20px);
 
   border-radius: 30px;
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(105, 255, 220, 0.10);
 
   box-shadow:
     0 25px 80px rgba(0, 0, 0, 0.35);
@@ -627,7 +614,7 @@ section {
     rgba(0, 229, 255, 0.35);
 
   box-shadow:
-    0 30px 90px rgba(0, 229, 255, 0.08);
+    0 30px 90px rgba(0, 220, 175, 0.11);
 }
 
 .about-content h3 {
@@ -652,7 +639,7 @@ section {
 ================================ */
 
 #skills {
-  background: #030712;
+  background: #021714;
 }
 
 .skills-container {
@@ -678,11 +665,11 @@ section {
   text-align: center;
 
   background:
-    rgba(15, 23, 42, 0.7);
+    rgba(4, 37, 32, 0.76);
 
   backdrop-filter: blur(15px);
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(105, 255, 220, 0.10);
 
   border-radius: 22px;
 
@@ -747,11 +734,7 @@ section {
 
 #projects {
   background:
-    linear-gradient(
-      180deg,
-      #030712,
-      #07111f
-    );
+    linear-gradient(180deg, #021714, #06231f);
 }
 
 .projects-container {
@@ -773,13 +756,13 @@ section {
   overflow: hidden;
 
   background:
-    rgba(15, 23, 42, 0.75);
+    rgba(4, 37, 32, 0.78);
 
   backdrop-filter: blur(15px);
 
   border-radius: 22px;
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(105, 255, 220, 0.10);
 
   transition: 0.5s;
 }
@@ -835,7 +818,7 @@ section {
 ================================ */
 
 #education {
-  background: #030712;
+  background: #021714;
 }
 
 .education-container {
@@ -881,13 +864,13 @@ section {
   margin-bottom: 30px;
 
   background:
-    rgba(15, 23, 42, 0.7);
+    rgba(4, 37, 32, 0.76);
 
   backdrop-filter: blur(15px);
 
   border-radius: 20px;
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(105, 255, 220, 0.10);
 
   transition: 0.5s;
 }
@@ -948,7 +931,7 @@ section {
 .contact-section {
   width: 100%;
   padding: 100px 20px;
-  background: #0b0f19;
+  background: #031b18;
   color: #fff;
   position: relative;
   overflow: hidden;
@@ -1224,10 +1207,10 @@ footer {
 
   text-align: center;
 
-  background: #01040b;
+  background: #010d0b;
 
   border-top:
-    1px solid rgba(255, 255, 255, 0.08);
+    1px solid rgba(105, 255, 220, 0.10);
 }
 
 footer p {
@@ -1286,7 +1269,7 @@ footer span {
 
   to {
     filter: drop-shadow(
-      0 0 20px rgba(0, 229, 255, 0.25)
+      0 0 20px rgba(0, 229, 190, 0.25)
     );
   }
 
